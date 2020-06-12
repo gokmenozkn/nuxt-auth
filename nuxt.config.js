@@ -51,13 +51,7 @@ export default {
       '@nuxtjs/firebase',
       {
         config: {
-          apiKey: "AIzaSyDCPIsJ0vUEVs_r1VlrPKpytJcH1MFo9eY",
-          authDomain: "nuxt-auth-77da2.firebaseapp.com",
-          databaseURL: "https://nuxt-auth-77da2.firebaseio.com",
-          projectId: "nuxt-auth-77da2",
-          storageBucket: "nuxt-auth-77da2.appspot.com",
-          messagingSenderId: "181347911879",
-          appId: "1:181347911879:web:b401bf3fcb9715712e96e2"
+          // Your Info
         },
         services: {
           auth: {
@@ -70,22 +64,6 @@ export default {
       }
     ]
   ],
-  // firebase: {
-  //   config: {
-  //     apiKey: "AIzaSyDCPIsJ0vUEVs_r1VlrPKpytJcH1MFo9eY",
-  //     authDomain: "nuxt-auth-77da2.firebaseapp.com",
-  //     databaseURL: "https://nuxt-auth-77da2.firebaseio.com",
-  //     projectId: "nuxt-auth-77da2",
-  //     storageBucket: "nuxt-auth-77da2.appspot.com",
-  //     messagingSenderId: "181347911879",
-  //     appId: "1:181347911879:web:b401bf3fcb9715712e96e2"
-  //   },
-  //   services: {
-  //     auth: {
-  //       ssr: true
-  //     }
-  //   }
-  // },
   /*
   ** Build configuration
   */
